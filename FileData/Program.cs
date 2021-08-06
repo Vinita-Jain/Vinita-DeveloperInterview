@@ -13,7 +13,7 @@ namespace FileData
             try
             {
                 FileDetails fd = new FileDetails();
-                int argCount = 2;
+                int argCount = args.Count();
                 switch (argCount)
                 {
                     case 1 : 
